@@ -1,0 +1,13 @@
+.link-button {
+  display: inline-block;
+  padding: 15px 30px;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  border-radius: 30px;
+  transition: all 0.3s ease-in-out;
+}
+
+.link-button:hover {
+  background-color: #484646;
+}

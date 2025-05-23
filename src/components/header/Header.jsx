@@ -2,6 +2,7 @@ import Container from "../container/Container.jsx";
 import Logo from "../logo/Logo.jsx";
 import LogoImage from "../../assets/images/logo.png";
 import "./header.css";
+import LinkButton from "../link-button/LinkButton.jsx";
 
 const menuItems = [
   {
@@ -58,6 +59,8 @@ function Header() {
                 />
               </svg>
             </a>
+
+            <LinkButton href="#">Buy gift vouchers</LinkButton>
           </div>
         </nav>
       </Container>
